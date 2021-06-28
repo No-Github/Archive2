@@ -516,6 +516,7 @@ avList = {
     "edr_sec_plan.exe":"深信服EDRAgent",
     "efpeadm.exe":"已知杀软进程,名称暂未收录",
     "egui.exe":"ESETNOD32",
+    "LAVService.exe":"联想电脑管家",
     "eguiProxy.exe":"ESETNOD32",
     "ekrn.exe":"ESETNOD32",
     "emet_agent.exe":"EMET",
