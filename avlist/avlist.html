@@ -15,12 +15,16 @@
 	<input type="submit" id="search" value="查询" onclick="getAVName();">
 	<br>
 	<br>
-	<textarea style="border:0;border-radius:5px;background-color:rgba(241,241,241,.98);width: 30%;height: 241px;padding: 10px;resize: none;" placeholder="结果" id="result1"></textarea>
-	<textarea style="border:0;border-radius:5px;background-color:rgba(241,241,241,.98);width: 30%;height: 241px;padding: 10px;resize: none;" placeholder="结果" id="result2"></textarea>
+	<div>
+		<h3>查询结果</h3>
+		<textarea style="border:0;border-radius:5px;background-color:rgba(241,241,241,.98);width: 30%;height: 241px;padding: 10px;resize: none;" placeholder="杀软结果" id="result1"></textarea>
+		<textarea style="border:0;border-radius:5px;background-color:rgba(241,241,241,.98);width: 30%;height: 241px;padding: 10px;resize: none;" placeholder="其他软件结果" id="result2"></textarea>
+	</div>
+
 </center>
 
-<script src="https://cdn.jsdelivr.net/gh/No-Github/Archive2@1.0.6/JS/avlist.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/No-Github/Archive2@1.0.6/JS/tasklist.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/No-Github/Archive2@1.0.7/JS/avlist.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/No-Github/Archive2@1.0.7/JS/tasklist.js"></script>
 <script>
 function getAVName(){
 	var tasklist = document.getElementById('content').value;
@@ -37,8 +41,19 @@ function getAVName(){
 		}
 	}
 	result.innerHTML = htmlContent;
-}
 
+	var result = document.getElementById('result2');
+	var htmlContent = "";
+	for(i=0; i<Object.keys(taskList).length; i++){
+		var taskid = Object.keys(taskList)[i];
+		for(x=0; x<tasks.length; x++){
+			if(taskid.toLowerCase() == tasks[x].toLowerCase()){
+				htmlContent += taskid + " <=> " + taskList[taskid] + "\n";  // 如果是 cf 里 需要改为 \\n
+			}
+		}
+	}
+	result.innerHTML = htmlContent;
+}
 
 </script>
 </body>
