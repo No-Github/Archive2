@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>杀软查询</title>
+	<link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/No-Github/Archive2@1.0.4/html/images/ffffffff0x-64.ico" />
+	<meta charset="utf-8">
+</head>
+<body>
+
+<center>
+	<h3>tasklist /svc</h3><br>
+	<textarea style="border:0;border-radius:5px;background-color:rgba(241,241,241,.98);width: 30%;height: 341px;padding: 10px;resize: none;" placeholder="查询" id="content"></textarea>
+	<br>
+	<br>
+	<input type="submit" id="search" value="查询" onclick="getAVName();">
+	<br>
+	<br>
+	<textarea style="border:0;border-radius:5px;background-color:rgba(241,241,241,.98);width: 30%;height: 241px;padding: 10px;resize: none;" placeholder="结果" id="result"></textarea>
+</center>
+
+<script src="https://cdn.jsdelivr.net/gh/No-Github/Archive2@1.0.5/JS/avlist.js"></script>
+<script>
+function getAVName(){
+	var tasklist = document.getElementById('content').value;
+	var re = new RegExp("(.*?)\.exe", "g");
+	var tasks = tasklist.match(re);
+	var result = document.getElementById('result');
+	var htmlContent = "";
+	for(i=0; i<Object.keys(avList).length; i++){
+		var taskid = Object.keys(avList)[i];
+		for(x=0; x<tasks.length; x++){
+			if(taskid.toLowerCase() == tasks[x].toLowerCase()){
+				htmlContent += taskid + " <=> " + avList[taskid] + "\n";  // 如果是 cf 里 需要改为 \\n
+			}
+		}
+	}
+	result.innerHTML = htmlContent;
+}
+
+</script>
+</body>
+</html>
