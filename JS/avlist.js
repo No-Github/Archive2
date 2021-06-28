@@ -149,6 +149,7 @@ avList = {
     "HSOCKPE.exe":"已知杀软进程,名称暂未收录",
     "HUPDATE.exe":"已知杀软进程,名称暂未收录",
     "HipsDaemon.exe":"火绒",
+    "HipsMain.exe":"火绒",
     "HipsTray.exe":"火绒",
     "HwsPanel.exe":"护卫神",
     "IAMAPP.exe":"Symantec",
