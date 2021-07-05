@@ -34,6 +34,7 @@ taskList = {
     "AnyDesk.exe":"AnyDesk",
     "SunloginClient.exe":"向日葵",
     "TeamViewer.exe":"TeamViewer",
+    "TeamViewer_Service.exe":"TeamViewer",
     "tv_w32.exe":"TeamViewer",
     "tv_x64.exe":"TeamViewer",
     "navicat.exe":"navicat",

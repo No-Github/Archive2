@@ -2,6 +2,7 @@ avList = {
     "1433.exe":"在扫1433",
     "360EntClient.exe":"天擎EDRAgent",
     "360rp.exe":"360杀毒",
+    "360rps.exe":"360杀毒",
     "360safe.exe":"360安全卫士-主程序",
     "360safebox.exe":"360杀毒",
     "360sd.exe":"360杀毒",
