@@ -51,4 +51,7 @@ taskList = {
     "wechatweb.exe":"微信",
     "OpenArk64.exe":"OpenArk",
     "geek.exe":"geek",
+    "cloudmusic.exe":"网易云音乐",
+    "ShadowsocksR-dotnet4.0.ex":"SSR",
+    "dukto.exe":"dukto",
 };
