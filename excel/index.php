@@ -18,6 +18,14 @@ error_reporting(0);
 
 if ($_FILES["file"]["name"] == null){
     ?>
+    <!DOCTYPE html>
+    <html style="height: 100%">
+    <head>
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/No-Github/Archive2@1.0.4/html/images/ffffffff0x-64.ico" type="image/x-icon">
+        <meta charset="utf-8">
+    </head>
+    <body style="height: 100%; margin: 0">
+
     <link href="./css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <div class="mb-3">
         <label for="formFile" class="form-label">请上传文件,支持.txt,.csv,.xlsx</label>
@@ -45,6 +53,14 @@ else
 {
     echo "<script>alert('我滚你妈的传的什么勾8');</script>";
     ?>
+    <!DOCTYPE html>
+    <html style="height: 100%">
+    <head>
+        <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/No-Github/Archive2@1.0.4/html/images/ffffffff0x-64.ico" type="image/x-icon">
+        <meta charset="utf-8">
+    </head>
+    <body style="height: 100%; margin: 0">
+
     <link href="./css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <div class="mb-3">
         <label for="formFile" class="form-label">请上传文件,支持.txt,.csv,.xlsx</label>
