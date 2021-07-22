@@ -106,6 +106,7 @@ arsort($result);
 <!DOCTYPE html>
 <html style="height: 100%">
 <head>
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/No-Github/Archive2@1.0.4/html/images/ffffffff0x-64.ico" type="image/x-icon">
     <meta charset="utf-8">
 </head>
 <body style="height: 100%; margin: 0">
