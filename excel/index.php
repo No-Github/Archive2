@@ -1,6 +1,6 @@
 <?php
 //引入类库
-include "./PHPExcel-1.8/Classes/PHPExcel/IOFactory.php";
+include "./PHPExcel-1.8.2/Classes/PHPExcel/IOFactory.php";
 header('Content-type:text/html;charset=utf-8');
 error_reporting(0);
 // 文件上传文件处理
