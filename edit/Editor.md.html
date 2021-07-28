@@ -1,0 +1,20 @@
+<head>
+	<title>Editor.md</title>
+	<link rel="icon" type="image/x-icon" href="http://editor.md.ipandao.com/favicon.ico" />
+	<meta charset="utf-8">
+</head>
+<body>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pandao/editor.md/css/editormd.min.css" />
+<div id="editor">
+    <textarea style="display:none;">### Hello Editor.md !</textarea>
+</div>
+<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/pandao/editor.md/editormd.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+        var editor = editormd("editor", {
+            path : "https://cdn.jsdelivr.net/gh/pandao/editor.md/lib/"
+        });
+    });
+</script>
