@@ -54,4 +54,5 @@ taskList = {
     "cloudmusic.exe":"网易云音乐",
     "ShadowsocksR-dotnet4.0.ex":"SSR",
     "dukto.exe":"dukto",
+    "finalshell.exe": "finalshell终端管理",
 };

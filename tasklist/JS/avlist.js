@@ -1022,4 +1022,8 @@ avList = {
     "zonalm2601.exe":"已知杀软进程,名称暂未收录",
     "zonealarm.exe":"ZoneAlarm",
     "ZONEALARM.exe":"ZoneAlarm",
+    "AliSecGuard.exe": "阿里云盾",
+    "AliYunDunUpdate.exe": "阿里云盾",
+    "AliYunDun.exe": "阿里云盾",
+    "CmsGoAgent.windows-amd64.": "阿里云监控",
 };
