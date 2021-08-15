@@ -55,4 +55,9 @@ taskList = {
     "ShadowsocksR-dotnet4.0.ex":"SSR",
     "dukto.exe":"dukto",
     "finalshell.exe": "finalshell终端管理",
+    "mysqld.exe":"mysql",
+    "php-cgi.exe":"php",
+    "CloudHelper.exe":"安全狗/云视通",
+    "G6FTPServer.exe":"Gene6 FTP Server",
+    "G6FTPTray.exe":"Gene6 FTP",
 };
