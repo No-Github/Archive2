@@ -60,4 +60,6 @@ taskList = {
     "CloudHelper.exe":"安全狗/云视通",
     "G6FTPServer.exe":"Gene6 FTP Server",
     "G6FTPTray.exe":"Gene6 FTP",
+    "Mini Mouse.exe":"Mini Mouse(有LFI和RCE)",
+    "WechatBrowser.exe":"PC微信浏览器",
 };
