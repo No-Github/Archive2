@@ -62,4 +62,8 @@ taskList = {
     "G6FTPTray.exe":"Gene6 FTP",
     "Mini Mouse.exe":"Mini Mouse(有LFI和RCE)",
     "WechatBrowser.exe":"PC微信浏览器",
+    "TNSLSNR.exe":"Oracle 数据库服务",
+    "MsDtsSrvr.exe":"MicrosoftSQLServer",
+    "vncserver":"VNC",
+    "Tomcat6":"Tomcat6",
 };
