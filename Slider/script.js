@@ -20,7 +20,7 @@ const slide = (condition) => {
     move(value, trailValue)
     // Restart Animation
     animate()
-    // start interal for slides back 
+    // start interal for slides back
     start = setInterval(() => slide("increase"), interval);
 }
 

@@ -8,7 +8,7 @@ function onclick2()
 }
 function onclick3()
 {
-    window.open("https://github.com/ffffffff0x/Dork-Admin");
+    window.open("https://github.com/ffffffff0x/1earn");
 }
 function onclick4()
 {
