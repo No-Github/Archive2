@@ -115,6 +115,22 @@ strong {
   outline-color: hsl(var(--hue), 95%, 50%);
 }
 
+.overlay__input {
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--light-color);
+  background: var(--dark-color);
+  border: none;
+  border-radius: 0.5rem;
+  transition: transform 150ms ease;
+  outline-color: hsl(var(--hue), 95%, 50%);
+}
+
 .overlay__btn:hover {
   transform: scale(1.05);
   cursor: pointer;
