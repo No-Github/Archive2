@@ -64,6 +64,11 @@ taskList = {
     "WechatBrowser.exe":"PC微信浏览器",
     "TNSLSNR.exe":"Oracle 数据库服务",
     "MsDtsSrvr.exe":"MicrosoftSQLServer",
-    "vncserver":"VNC",
-    "Tomcat6":"Tomcat6",
+    "vncserver.exe":"VNC",
+    "Tomcat6.exe":"Tomcat6",
+    "Tabby.exe":"Tabby 远程管理工具",
+    "frps.exe":"frps",
+    "frpc.exe":"frpc",
+    "OpenVPNConnect.exe":"openvpn",
+    "ovpnhelper_service.exe":"openvpn",
 };
