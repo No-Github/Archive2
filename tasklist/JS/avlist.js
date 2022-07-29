@@ -1629,4 +1629,7 @@ avList = {
     "zonealarm.exe":"zone alarm",
     "zonealarm.exe":"ZoneAlarm",
     "ZONEALARM.exe":"ZoneAlarm",
+    "QAXEntClient.exe":"天擎",
+    "QAXTray.exe":"天擎",
+    "ccSvcHst.exe":"赛门铁克",
 };
