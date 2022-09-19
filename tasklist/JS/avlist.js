@@ -1632,4 +1632,6 @@ avList = {
     "QAXEntClient.exe":"天擎",
     "QAXTray.exe":"天擎",
     "ccSvcHst.exe":"赛门铁克",
+    "/sangfor/edr/agent":"深信服edr",
+    "/assist-daemon/assist_daemon":"阿里云云助手守护进程",
 };
