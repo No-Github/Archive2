@@ -61,7 +61,7 @@ taskList = {
     "G6FTPServer.exe":"Gene6 FTP Server",
     "G6FTPTray.exe":"Gene6 FTP",
     "Mini Mouse.exe":"Mini Mouse(有LFI和RCE)",
-    "WechatBrowser.exe":"PC微信浏览器",
+    "WechatBrowser.exe":"微信PC微信浏览器",
     "TNSLSNR.exe":"Oracle 数据库服务",
     "MsDtsSrvr.exe":"MicrosoftSQLServer",
     "vncserver.exe":"VNC",
@@ -71,4 +71,8 @@ taskList = {
     "frpc.exe":"frpc",
     "OpenVPNConnect.exe":"openvpn",
     "ovpnhelper_service.exe":"openvpn",
+    "idea64.exe":"IDEA工具",
+    "lghub_updater.exe":"罗技鼠标软件",
+    "WeChatStore.exe":"微信",
+    "Lsf.exe":"联想电脑管家",
 };
