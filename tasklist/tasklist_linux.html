@@ -25,6 +25,7 @@
 </center>
 
 <script src="https://cdn.jsdelivr.net/gh/No-Github/Archive2/tasklist/JS/avlist.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/No-Github/Archive2/tasklist/JS/linux.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/No-Github/Archive2/tasklist/JS/tasklist.js"></script>
 <script>
 function getAVName() {
@@ -39,13 +40,13 @@ function getAVName() {
 			processes.push({ pid: matches[1], command: matches[2].toLowerCase() });
 		}
 
-		// 比较进程和 avList
+		// 比较进程和 LinuxAvList
 		var result1 = document.getElementById('result3');
 		var htmlContent1 = "";
 		for (var i = 0; i < processes.length; i++) {
-			for (var av in avList) {
+			for (var av in LinuxAvList) {
 				if (processes[i].command.includes(av.toLowerCase())) {
-					htmlContent1 += processes[i].pid + " <=> " + processes[i].command + " <=> " + avList[av] + "\n";
+					htmlContent1 += processes[i].pid + " <=> " + processes[i].command + " <=> " + LinuxAvList[av] + "\n";
 				}
 			}
 		}
