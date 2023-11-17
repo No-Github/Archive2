@@ -1640,7 +1640,6 @@ avList = {
     "/usr/local/aegis/aegis_client/":"阿里云盾",
     "/usr/local/share/aliyun-assist":"阿里云助手",
     "AliHips":"阿里系监控",
-    "AliYunDunMonitor":"阿里系监控",
     "AliNet":"阿里系监控",
     "AliDetect":"阿里系监控",
     "AliScriptEngine":"阿里系监控",
